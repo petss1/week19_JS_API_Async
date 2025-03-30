@@ -1,0 +1,26 @@
+.container{
+    width: 80%;
+    margin: 4vw;
+    padding: 2vw;
+    border-radius: 2vw;
+    background-color: #8395d5;
+    font-size: 2vw;
+}
+
+.button {
+    border-radius: 0.5vw;
+    cursor: pointer;
+    background-color: #a17878;
+}
+
+
+.post-title {
+    font-size: 1.7em;
+    padding-left: 5vw;
+}
+
+.post-body {
+    font-size: 1.3em;
+    padding-left: 5vw;
+}
+

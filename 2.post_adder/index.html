@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/normalize.css">
+    <title>Post Adder</title>
+</head>
+<body>
+    <form class="container">
+        <div>
+            <label for="taskInput"><b>Новый пост:</b>
+                <input type="text" id="postInput" placeholder="Заголовок поста" required autocomplete="off">
+                <input type="text" id="postTextInput" placeholder="Текст поста" required autocomplete="off">
+                <button class="button" type="submit" id="addTaskBtn">Создать пост</button> 
+            </label>
+        </div>
+    </form>
+    <div class="postContainer" id="postContainer"></div> 
+    <script src="assets/script/index.js"></script>
+</body>
+</html>
